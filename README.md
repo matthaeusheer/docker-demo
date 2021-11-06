@@ -12,7 +12,10 @@ The fast way 🚀
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
+This convenience script detects your distribution and installs docker and required dependencies (needs sudo access)
 If you run into issues, see official documentation at https://docs.docker.com/engine/install/ubuntu/.
+### 1.3 Post-Installation Steps
+
 
 ## 2. Workshop
 ### 2.1 Scenario 1
