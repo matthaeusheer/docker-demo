@@ -3,7 +3,7 @@ Demo Project for Coding Dojo.
 
 ## 1. Pre-Workshop Preparations
 ### 1.1 Setup your Linux System
-You will need a Linux OS System (Ubuntu 20.04 *highly* recommended!) running either natively or on a Virtual Machine (e.g. using Virtualbox).
+You will need a Linux OS System (Ubuntu 20.04 *highly* recommended!) running either natively or on a Virtual Machine (e.g. using https://www.virtualbox.org/).
 To setup a VM, watch: https://www.youtube.com/watch?v=x5MhydijWmc
 
 ### 1.2 Install Docker
