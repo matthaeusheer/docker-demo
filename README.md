@@ -16,7 +16,7 @@ This convenience script detects your distribution and installs docker and requir
 ```
 sudo usermod -aG docker $USER
 ```
-Restart your system for the changes to take effect.
+Restart your system for the changes to take effect.  
 **Test the installation** by running
 ```
 docker run hello-world
