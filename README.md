@@ -12,8 +12,14 @@ The fast way 🚀
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
-This convenience script detects your distribution and installs docker and required dependencies (needs sudo access)
+This convenience script detects your distribution and installs docker and required dependencies (needs sudo access). It should have created a `docker` group already, so you just have to add your own user to it to be able to run `docker` commands without `sudo`
+```
+sudo usermod -aG docker $USER
+```
+Restart your system for the changes to take effect.
+
 If you run into issues, see official documentation at https://docs.docker.com/engine/install/ubuntu/.
+
 ### 1.3 Post-Installation Steps
 
 
