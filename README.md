@@ -7,7 +7,7 @@ You will need a Linux OS System (Ubuntu 20.04 *highly* recommended!) running eit
 To setup a VM, watch: https://www.youtube.com/watch?v=x5MhydijWmc
 
 ### 1.2 Install Docker
-The fast way 🚀
+**Install docker** the fast way 🚀
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
@@ -17,6 +17,11 @@ This convenience script detects your distribution and installs docker and requir
 sudo usermod -aG docker $USER
 ```
 Restart your system for the changes to take effect.
+**Test the installation** by running
+```
+docker run hello-world
+```
+and reading the output prompt.
 
 If you run into issues, see official documentation at https://docs.docker.com/engine/install/ubuntu/.
 
