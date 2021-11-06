@@ -1,5 +1,6 @@
 # docker-demo
-Demo Project for Coding Dojo.
+![image](https://user-images.githubusercontent.com/8364783/140619846-e4733d97-7479-4eb4-8b12-dec8b7f0fce0.png)
+
 
 ## 1. Pre-Workshop Preparations
 ### 1.1 Setup your Linux System
