@@ -22,8 +22,8 @@ Restart your system for the changes to take effect.
 ```
 docker run hello-world
 ```
-and reading the output prompt.
-To enable docker auto-completion in the shell, run
+and reading the output prompt.  
+To enable docker auto-completion in the shell (like a boss), run
 ```
 sudo curl \
     -L https://raw.githubusercontent.com/docker/compose/1.29.2/contrib/completion/bash/docker-compose \
