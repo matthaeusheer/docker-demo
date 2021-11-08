@@ -35,3 +35,9 @@ sudo curl \
 ```
 
 If you run into issues, see official documentation at https://docs.docker.com/engine/install/ubuntu/.
+
+### 1.3 Install git
+Since we need to clone this repo for the workshop, we need to have git installed
+```
+sudo apt install git
+```
