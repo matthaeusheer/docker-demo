@@ -25,11 +25,3 @@ docker run hello-world
 and reading the output prompt.
 
 If you run into issues, see official documentation at https://docs.docker.com/engine/install/ubuntu/.
-
-### 1.3 Post-Installation Steps
-
-
-## 2. Workshop
-### 2.1 Scenario 1
-### 2.2 Scenraio 2
-### 2.3 Scenario 3
