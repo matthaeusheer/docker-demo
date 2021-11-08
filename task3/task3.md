@@ -1,4 +1,4 @@
-# Task 2 - Getting Familiar With Dockerfiles
+# Task 3 - Getting Familiar With Dockerfiles, Building Images, Starting Containers
 
 In this task you will learn how to build and run images using a Dockerfile.
 
