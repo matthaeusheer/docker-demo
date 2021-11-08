@@ -36,8 +36,17 @@ sudo curl \
 
 If you run into issues, see official documentation at https://docs.docker.com/engine/install/ubuntu/.
 
-### 1.3 Install git
-Since we need to clone this repo for the workshop, we need to have git installed
+### 1.3 Install development tools
+1) Since we need to clone this repo for the workshop, we need to have git installed
 ```
 sudo apt install git
 ```
+2) Download the docker-demo repo
+```
+git clone https://github.com/matthaeusheer/docker-demo.git
+```
+3) We are comfortable with IntelliJ, so let's install this one as well
+- Go to https://www.jetbrains.com/de-de/idea/download/#section=linux and download the community edition
+- Extract the file with `tar -xf <intellij_downloaded_file>`
+- Run `<path_to_extracted_folder>/bin/idea.sh`
+- Choose "add desktop entry" in the little settings icon to be able to start IDEA as a normal application outside the command line
