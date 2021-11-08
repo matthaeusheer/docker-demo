@@ -24,10 +24,10 @@ docker run hello-world
 ```
 and reading the output prompt.
 To enable docker auto-completion in the shell, run
-'''
+```
 sudo curl \
     -L https://raw.githubusercontent.com/docker/compose/1.29.2/contrib/completion/bash/docker-compose \
     -o /etc/bash_completion.d/docker-compose
-'''
+```
 
 If you run into issues, see official documentation at https://docs.docker.com/engine/install/ubuntu/.
