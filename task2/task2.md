@@ -1,13 +1,13 @@
 # Task 2 - Working with a very simple Dockerfile
 
-In this task we will check out a very simple Java project (a hello world class) and containerize it.  
-This task is meant to work as a 
+In this task we will check out a very simple Java project (a hello world printing class) and containerize it.  
+
 
 **Build an image with the given Dockerfile**
 
 **Run the image**
 
-**Override the CMD by starting a container with a interactive shell**
+**Override the CMD by starting a container with a interactive shell**  
 
 **Look around in the container, what is there**
 

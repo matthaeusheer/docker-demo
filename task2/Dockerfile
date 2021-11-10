@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-WORKDIR /home/mydocker
+WORKDIR /app
 
 COPY MyApplication.java .
 

@@ -1,4 +1,4 @@
-# Task 2.1
+# Task 3
 
 This task shows a more realistic, very lean Dockerfile. 
 

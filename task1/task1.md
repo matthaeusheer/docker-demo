@@ -47,7 +47,7 @@ For more examples and ideas, visit:
 **Run the command again.**
 - What happens now? Why is it faster?
 - Inspect the images present on your local system, how many are there?
-- Check the created stamp and compare it with the respective one on Docker Hub. Look around on Docker Hub to get familiar with it.
+- Go to docker hub and look for the image. Look around on Docker Hub to get familiar with it.
 - Click on the _linux_ tag on Docker Hub (in the Description section of the image) and inspect the Dockerfile which creates this image. What is it doing?
 
 <details>
@@ -68,7 +68,7 @@ hello-world   latest    feb5d9fea6a5   6 weeks ago   13.3kB
 
 **Inspect your system-wide docker information / configuration.**
 - Where is the data docker created stored? 
-- How many images and containers are currently stored on the system?
+- How many images and containers are currently stored on the system? Look for this information in the output. What else can you find there?
 <details>
   <summary>Solution</summary>
 
@@ -108,6 +108,9 @@ d6780e6c8d1d   hello-world   "/hello"   About a minute ago   Exited (0) About a 
 
 ##2) A real-world scenario using Jenkins
 
+This task will show how easy it is to fire up _any_ application in an instance with a single command - a common thing using docker. Additionally we are going 
+to learn about attached / detached mode and how to run commands in and enter containers to sniff around.
+
 **Fire up an instance of a jenkins image in just a second and play around with it**
 ```
 docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins
@@ -119,7 +122,7 @@ docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins
 - When we start a container like this we are in "attached" mode thus the container is attached to our shell and exits when we press Ctrl+C. Stop and start the _same_ container in detached mode again. Be careful not to start a _new_ container of the same image. What would be the difference?
 - What other options do we have to stop a running container when it is in attached (and also detached) mode? Hint: `docker container --help`
 - Go to localhost:8080 and go through the setup of Jenkins (install packages and skip adding a user)
-- The initial admin password has been written to the logs of the running container. How can you get the logs when you are in detached mode? Get the password and enter it in the web UI. Hint: `docker logs --help`
+- The initial admin password has been written to the logs of the running container. How can you get the logs when you are in detached mode (note that the logs are simply written to your console when you are in attached mode)? Get the password and enter it in the web UI. Hint: `docker logs --help`
 
 **Entering a running container**  
 Run
@@ -133,6 +136,3 @@ Note that you can easily enter containers and to whatever you want in there as i
 
 **Removing containers and images**  
 - Read https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/ and clean up your system accordingly.
-
-
-##
