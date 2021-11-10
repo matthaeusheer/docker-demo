@@ -48,7 +48,7 @@ For more examples and ideas, visit:
 - What happens now? Why is it faster?
 - Inspect the images present on your local system, how many are there?
 - Check the created stamp and compare it with the respective one on Docker Hub. Look around on Docker Hub to get familiar with it.
-- Click on the latest:linux tag on Docker Hub and inspect the Dockerfile which creates this image. What is it doing?
+- Click on the _linux_ tag on Docker Hub (in the Description section of the image) and inspect the Dockerfile which creates this image. What is it doing?
 
 <details>
   <summary>Solution</summary>
