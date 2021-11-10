@@ -3,14 +3,38 @@
   <img width="264" src="https://user-images.githubusercontent.com/8364783/140619846-e4733d97-7479-4eb4-8b12-dec8b7f0fce0.png">
 </p>
 
+**TLDR; What you need:**
+- Docker installed
+- IntelliJ installed
 
-## 1. Pre-Workshop Preparations
-### 1.1 Setup your Linux System
+## Pre-Workshop Preparations
+### Variant 1 - Using Docker Desktop on Windows and Windows Subsystem for Linux (WSL)
+**1) Install WSL**  
+Run a Windows Powershell as administrator (right click).  
+Type  
+```
+wsl --install
+```
+This will take some time. Restart your computer. A WSL windows will open and install Ubuntu. This will take some time. Restart. WSL is now installed.  
+
+**2) Install Docker Desktop**  
+Go to https://docs.docker.com/desktop/windows/install/ and hit _Docker Desktop for Windows_. Run the executable. Follow the install process.  
+Once installed, open Docker Desktop. Go to Settings -> Resources -> WSL Integration -> Hit the Ubuntu slider.  
+Open the _Ubuntu_ app. **Test the installation** by running  
+```
+docker run hello-world
+```
+Read the output.  
+
+### Variant 2 - Using Docker an Mac
+Sorry, no support from my side, but simply follow: https://docs.docker.com/desktop/mac/install/
+
+### Variant 3 - Using an Ubuntu VM running on Virtualbox
+**1) Set up your VM**  
 You will need a Linux OS System (Ubuntu 20.04 *highly* recommended!) running either natively (😎) or on a Virtual Machine (e.g. using https://www.virtualbox.org/).  
 To setup a VM, watch: https://www.youtube.com/watch?v=x5MhydijWmc
 
-### 1.2 Install Docker
-**Install docker** the fast way 🚀
+**2) Install docker** the fast way 🚀
 ```
 sudo apt install curl
 ```
@@ -38,7 +62,7 @@ sudo curl \
 
 If you run into issues, see official documentation at https://docs.docker.com/engine/install/ubuntu/.
 
-### 1.3 Install development tools
+**Install development tools (only for Ubuntu VM - use your preferred tools on Windows WSL, like VIM :-) )**
 1) Since we need to clone this repo for the workshop, we need to have git installed
 ```
 sudo apt install git
