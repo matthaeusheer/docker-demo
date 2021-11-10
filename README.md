@@ -3,6 +3,9 @@
   <img width="264" src="https://user-images.githubusercontent.com/8364783/140619846-e4733d97-7479-4eb4-8b12-dec8b7f0fce0.png">
 </p>
 
+**TLDR; What you need:**
+- Docker installed
+- IntelliJ installed
 
 ## Pre-Workshop Preparations
 ### Variant 1 - Using Docker Desktop on Windows and Windows Subsystem for Linux (WSL)
@@ -23,7 +26,10 @@ docker run hello-world
 ```
 Read the output.  
 
-### Variant 2 - Using an Ubuntu VM running on Virtualbox
+### Variant 2 - Using Docker an Mac
+Sorry, no support from my side, but simply follow: https://docs.docker.com/desktop/mac/install/
+
+### Variant 3 - Using an Ubuntu VM running on Virtualbox
 **1) Set up your VM**  
 You will need a Linux OS System (Ubuntu 20.04 *highly* recommended!) running either natively (😎) or on a Virtual Machine (e.g. using https://www.virtualbox.org/).  
 To setup a VM, watch: https://www.youtube.com/watch?v=x5MhydijWmc
